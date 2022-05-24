@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body, h1, h2, h3, p, span {
+font-family: 'Lexend Deca', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+
+.container
+{
+        background-color: #093545;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.container h1
+{
+  font-size: 48px;
+  font-weight: 400; 
+  margin-bottom: 2,5rem; 
+  text-align: center;
+}
+
+
+
+.input_default
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-inline: 15px;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    border: none; 
+    color: white;
+    background-color: #224957;
+    font-family: Lexend Deca;
+
+}
+
+.input_default:focus 
+{
+    border: 2px solid #20DF7F;
+    outline: none;
+}
+.form
+{
+    margin-top: 10px;
+}
+
+.button_default
+{
+    background-color: #20DF7F;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 45px;
+    width: 300px;
+    border: none;
+    font-family: Lexend Deca;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.button_default:hover
+{
+    transform:scale(1.1)
+}
+
+
+.checkbox_wrapper {
+    display: flex;
+    align-items: center;
+   
+}
+
+.checkbox_default {
+    margin-right: 5px;
+}
+
+.forgot_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-inline: 3px;
+}
+
+.forgot_password
+{
+    color: #20DF7F    ;
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* forgot password page */
+
